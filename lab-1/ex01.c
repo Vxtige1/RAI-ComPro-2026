@@ -2,8 +2,9 @@
 
 int main()
 {
-    printf("Hello, World!$\n");
-    printf("Welcome to RAI$\n");
+    int num;
+    printf("Please enter an integer value: ");
+    scanf("%d", &num);
 
     return 0;
-}
+}   
